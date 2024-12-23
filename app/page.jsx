@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 // Components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
             <p className="max-w-[500px] mb-9 text-white/80">
               Software engineer passionate about technology and cybersecurity.
               Focused on developing innovative solutions and exploring the
-              intersection of programming and security
+              intersection of programming and security.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -30,7 +31,7 @@ const Home = () => {
                 className="uppercase flex items-center gap-2"
               >
                 <span>Download CV</span>
-                <FiDownload className="text_xl " />
+                <FiDownload className="text_xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
@@ -47,6 +48,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 };
