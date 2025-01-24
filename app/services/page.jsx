@@ -24,6 +24,12 @@ const services = [
       "Design and implementation of software architectures and systems",
     href: "",
   },
+  {
+    num: "04",
+    title: "Data Science and Machine Learning",
+    description: "Investigation and development of data science and machine learning projects",
+    href: "",
+  },
 ];
 
 const Services = () => {

@@ -15,10 +15,10 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br />{" "} 
+              Hello I'm <br />{" "}
               <span className="text-accent">Cristian Alvarado</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-9 text-white/80" >
               Software engineer passionate about technology and cybersecurity.
               Focused on developing innovative solutions and exploring the
               intersection of programming and security.
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
           {/*  photo */}
           <div>
-            <Photo className="order-1 xl:order-none mb-8 xl:mb-0" /> 
+            <Photo className="order-1 xl:order-none mb-8 xl:mb-0" />
           </div>
         </div>
       </div>
