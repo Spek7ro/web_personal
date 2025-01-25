@@ -18,19 +18,11 @@ import { DiDjango } from "react-icons/di";
 const about = {
   title: "About Me",
   description:
-    "Software Engineer passionate about technology and cybersecurity. Focused on developing innovative solutions and exploring the intersection of programming and security.",
+    "Software Engineer specialized in backend development with experience in creating scalable and high-performance solutions. Skilled in designing and implementing microservices, gathering requirements, and applying software quality practices. Experienced in working under agile methodologies such as Scrum to optimize processes and ensure efficient deliveries. Passionate about technological innovation and solving complex problems, seeking to add value in dynamic and challenging environments.",
   info: [
     {
       fieldName: "Name",
       fieldValue: "Cristian Alvarado",
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+52) 492 223 1030",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "cristianrdz75453@gmail.com",
     },
     {
       fieldName: "Experience",
@@ -43,6 +35,14 @@ const about = {
     {
       fieldName: "Languages",
       fieldValue: "Spanish, English",
+    },
+    {
+      fieldName: "Phone",
+      fieldValue: "(+52) 492 223 1030",
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "cristianrdz75453@gmail.com",
     },
   ],
 };
@@ -65,7 +65,7 @@ const experience = {
     },
     {
       comany: "Psicosfera",
-      position: "Backend Developer",
+      position: "Backend Developer (Remote)",
       duration: "February 2023 - November 2023",
     },
   ],
@@ -88,7 +88,8 @@ const education = {
 // skills data
 const skills = {
   title: "My Skills",
-  description: "I have a strong background in the following skills",
+  description:
+    "I have a strong background in the following skills and technologies",
   items: [
     {
       icon: <FaJava />,
@@ -112,11 +113,11 @@ const skills = {
     },
     {
       icon: <GrOracle />,
-      name: "Oracle",
+      name: "Oracle Database",
     },
     {
       icon: <GrDatabase />,
-      name: "Database",
+      name: "SQL",
     },
     {
       icon: <SiMysql />,
@@ -200,7 +201,7 @@ const Resume = () => {
                           </h3>
                           <div className="flex items-center gap-3">
                             {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span> 
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.comany}</p>
                           </div>
                         </li>
@@ -210,17 +211,110 @@ const Resume = () => {
                 </ScrollArea>
               </div>
             </TabsContent>
+
             {/* Education */}
             <TabsContent value="education" className="w-full">
-              Education
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{education.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {education.description}
+                </p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                    {education.items.map((item, index) => {
+                      return (
+                        <li
+                          key={index}
+                          className="bg-[#232329] h-[184px] py-6
+                        px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                        >
+                          <span className="text-accent">{item.duration}</span>
+                          <h3
+                            className="text-xl max-w-[260px] min-h-[60px]
+                          text-center lg:text-left"
+                          >
+                            {item.degree}
+                          </h3>
+                          <div className="flex items-center gap-3">
+                            {/* dot */}
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <p className="text-white/60">{item.institution}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
             </TabsContent>
+
             {/* Skills */}
-            <TabsContent value="skills" className="w-full">
-              Skills
+            <TabsContent value="skills" className="w-full h-full">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                    {skills.description}
+                  </p>
+                </div>
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                  {skills.items.map((skill, index) => {
+                    return (
+                      <li key={index}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger
+                              className="w-full h-[150px] 
+                            bg-[#232329] rounded-xl flex justify-center items-center
+                            group"
+                            >
+                              <div
+                                className="text-6xl group-hover:text-accent 
+                              transition-all duration-300"
+                              >
+                                {skill.icon}
+                              </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className="capitalize">{skill.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             </TabsContent>
+
             {/* About */}
-            <TabsContent value="about" className="w-full">
-              About
+            <TabsContent
+              value="about"
+              className="w-full text-center xl:text-left"
+            >
+              <div className="flex flex-col gap-[30px]">
+                <h3 className="text-4xl font-bold">{about.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {about.description}
+                </p>
+                <ul
+                  className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px]
+                mx-auto xl:mx-0"
+                >
+                  {about.info.map((item, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className="flex items-center justify-center
+                      xl:justify-start gap-4"
+                      >
+                        <span className="text-white/60">{item.fieldName}</span>
+                        <span className="text-xl ">{item.fieldValue}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             </TabsContent>
           </div>
         </Tabs>
