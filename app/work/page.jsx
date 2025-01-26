@@ -17,6 +17,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { Description } from "@radix-ui/react-dialog";
+import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
   {
@@ -53,7 +54,7 @@ const projects = [
       { name: "CSS" },
       { name: "HTML" },
     ],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/mentali.png",
     live: "https://mentali.site/",
     github: "",
   },
@@ -160,7 +161,7 @@ const Work = () => {
                 return (
                   <SwiperSlide key={index} className="w-full">
                     <div
-                      className="h-[460px] relative group flex justify-center
+                      className="h-[460px] w-[620px] relative group flex justify-center
                     items-center bg-pink-50/20 "
                     >
                       {/* overlay */}
@@ -182,8 +183,10 @@ const Work = () => {
                 );
               })}
               {/* slides buttons */}
-              <h2>Slides</h2>
-              <div>Cambio</div>
+              <WorkSliderBtns
+                containerStyles="flex gap-2 absolute rigth-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between
+                xl:w-max xl:justify-none"
+              />
             </Swiper>
           </div>
         </div>
