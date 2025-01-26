@@ -182,7 +182,7 @@ const Work = () => {
                 );
               })}
               {/* slides buttons */}
-              
+              <h2>Slides</h2>
             </Swiper>
           </div>
         </div>
