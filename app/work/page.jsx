@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { BsArrowRight, BsArrowUpRight, BsGithub } from "react-icons/bs";
+import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 
 import {
   Tooltip,
@@ -184,9 +184,10 @@ const Work = () => {
               })}
               {/* slides buttons */}
               <WorkSliderBtns
-                containerStyles="flex gap-2 absolute rigth-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between
-                xl:w-max xl:justify-none" 
-                
+                containerStyles="flex gap-2 absolute rigth-1 bottom-[calc(50%_-_22px)] 
+                xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] 
+                w-[45px] h-[45px] flex justify-center items-center transition-all rounded-full"
               />
             </Swiper>
           </div>
