@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
           <div className="xl:h-[54%] order-2 xl:order-none">
-            <c
+            <form
               className="flex flex-col gap-6 p-10 bg-[#27272c] 
             rounded-xl"
             >
@@ -75,7 +75,16 @@ const Contact = () => {
                   </SelectGroup>
                 </SelectContent>
               </Select>
-            </c>
+              {/* textarea */}
+              <Textarea
+                className="h-[200px]"
+                placeholder="Type your message here."
+              />
+              {/* btn */}
+              <Button size="md" className="max-w-40">
+                Send Message
+              </Button>
+            </form>
           </div>
           {/* info */}
           <div
