@@ -56,7 +56,7 @@ const experience = {
     {
       comany: "Orla Mining Ltd",
       position: "Software Engineer",
-      duration: "March 2024 - October 2024",
+      duration: "March 2024 - February 2025",
     },
     {
       comany: "Laboratory of molecular medicine - UAZ",
