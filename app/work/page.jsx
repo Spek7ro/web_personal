@@ -23,7 +23,7 @@ const projects = [
   {
     num: "01",
     category: "Backend",
-    title: "Spring Boot (Microservices)",
+    title: "Spring Boot Microservices - Financial Sector",
     description:
       "PaymentChain, a financial sector startup, needs to create a technological solution to support the core of its business. This includes managing customer information, products, transactions, communication with business partners, and other operational processes.",
     stack: [
@@ -44,7 +44,7 @@ const projects = [
     category: "Fullstack",
     title: "Mentali Web",
     description:
-      '"Mentali Web," a web platform designed to register, analyze, and provide psychological follow-up for students, facilitating the work of psychologists through customized tools.',
+      '"Mentali Web", a web platform designed to register, analyze, and provide psychological follow-up for students, facilitating the work of psychologists through customized tools.',
     stack: [
       { name: "Python" },
       { name: "Django" },
@@ -60,8 +60,8 @@ const projects = [
   },
   {
     num: "03",
-    category: "Bkackend",
-    title: "API Rest",
+    category: "Backend",
+    title: "Spring-Oracle-Docker Integration",
     description: "This project is designed to learn how to integrate an application built with Spring Boot with an Oracle database, using Docker containers for deployment. The solution includes optimized configurations for development and test environments.",
     stack: [
       { name: "Java" },
@@ -77,8 +77,8 @@ const projects = [
   },
   {
     num: "04",
-    category: "ETL",
-    title: "Pipeline ETL",
+    category: "Data Analysis",
+    title: "ETL Pipeline in Python",
     description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
     stack: [
       { name: "Python" },
@@ -128,9 +128,10 @@ const Work = () => {
                 className="text-[42px] font-bold leading-none text-white group-hover:text-accent 
               transition-all duration-500 capitalize "
               >
-                {project.category} Project
+                {project.category} Project: 
               </h2>
               {/* project description */}
+              {/* <p className="text-accent text-3xl">{project.title}</p> */}
               <p className="text-white/60">{project.description}</p>
               {/* project stack */}
               <ul className="flex gap-10">
@@ -138,7 +139,6 @@ const Work = () => {
                   return (
                     <li key={index} className="text-xl text-accent">
                       {item.name}
-                      {/* {index !== project.stack.length - 1 && ","} */}
                     </li>
                   );
                 })}
