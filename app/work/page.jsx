@@ -77,6 +77,23 @@ const projects = [
   },
   {
     num: "04",
+    category: "Fullstack",
+    title: "Todo Application",
+    description: "This is a project for a to-do list application. It is a simple application that allows users to add, edit, and delete tasks.",
+    stack: [
+      { name: "Java" },
+      { name: "Spring Boot" },
+      { name: "Tymeleaf" },
+      { name: "HTML" },
+      { name: "Bootstrap" },
+      { name: "MySQL" },
+    ],
+    image: "/assets/work/project02.png",
+    live: "https://github.com/Spek7ro/TodoApp_SpringBoot.git",
+    github: "https://github.com/Spek7ro/TodoApp_SpringBoot.git",
+  },
+  {
+    num: "05",
     category: "Data Analysis",
     title: "ETL Pipeline in Python",
     description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
