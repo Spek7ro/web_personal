@@ -18,7 +18,7 @@ import { DiDjango } from "react-icons/di";
 const about = {
   title: "About Me",
   description:
-    "Software Engineer specialized in backend development with experience in creating scalable and high-performance solutions. Skilled in designing and implementing microservices, gathering requirements, and applying software quality practices. Experienced in working under agile methodologies such as Scrum to optimize processes and ensure efficient deliveries. Passionate about technological innovation and solving complex problems, seeking to add value in dynamic and challenging environments.",
+  "Software engineer passionate about Machine Learning, Data Science, and Artificial Intelligence. Dedicated to developing innovative solutions that leverage data-driven insights. Strong interest in data engineering, analytics, and building intelligent systems that solve real-world problems.",
   info: [
     {
       fieldName: "Name",

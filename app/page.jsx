@@ -19,9 +19,11 @@ const Home = () => {
               <span className="text-accent">Cristian Alvarado</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80" >
-              Software engineer passionate about technology and cybersecurity.
-              Focused on developing innovative solutions and exploring the
-              intersection of programming and security.
+              Software engineer passionate about Machine Learning, 
+              Data Science, and Artificial Intelligence. Dedicated 
+              to developing innovative solutions that leverage data-driven 
+              insights. Strong interest in data engineering, analytics, 
+              and building intelligent systems that solve real-world problems.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

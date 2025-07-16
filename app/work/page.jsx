@@ -22,6 +22,38 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "Data Analysis",
+    title: "Python-Project-New-York-AirBnb-Listing",
+    description: "This project performs Exploratory Data Analysis (EDA) on New York Airbnb data to uncover trends and patterns in rental listings. We use libraries like Pandas, Numpy, Matplotlib, Seabornfor cleaning, visualization, and analysis.",
+    stack: [
+      { name: "Python" },
+      { name: "Pandas" },
+      { name: "Numpy" },
+      { name: "Matplotlib" },
+      { name: "Seaborn" },
+      { name: "Plotly" },
+    ],
+    image: "/assets/work/project01.png",
+    live: "https://github.com/Spek7ro/Python-Project-New-York-AirBnb-Listing-2024.git",
+    github: "https://github.com/Spek7ro/Python-Project-New-York-AirBnb-Listing-2024.git",
+  },
+  {
+    num: "02",
+    category: "Data engineering",
+    title: "ETL Pipeline in Python",
+    description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
+    stack: [
+      { name: "Python" },
+      { name: "Docker" },
+      { name: "Python luigi" },
+      { name: "dgraph" },
+    ],
+    image: "/assets/work/project04.png",
+    live: "https://github.com/Spek7ro/GestorDeDatos_ETL.git",
+    github: "https://github.com/Spek7ro/GestorDeDatos_ETL.git",
+  },
+  {
+    num: "03",
     category: "Backend",
     title: "Spring Boot Microservices - Financial Sector",
     description:
@@ -40,7 +72,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Microservicios_Spring_Boot.git",
   },
   {
-    num: "02",
+    num: "04",
     category: "Fullstack",
     title: "Mentali Web",
     description:
@@ -59,7 +91,7 @@ const projects = [
     github: "https://mentali.site/",
   },
   {
-    num: "03",
+    num: "05",
     category: "Backend",
     title: "Spring-Oracle-Docker Integration",
     description: "This project is designed to learn how to integrate an application built with Spring Boot with an Oracle database, using Docker containers for deployment. The solution includes optimized configurations for development and test environments.",
@@ -76,7 +108,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Spring-Oracle-Docker.git",
   },
   {
-    num: "04",
+    num: "06",
     category: "Fullstack",
     title: "Todo Application",
     description: "This is a project for a to-do list application. It is a simple application that allows users to add, edit, and delete tasks.",
@@ -91,21 +123,6 @@ const projects = [
     image: "/assets/work/project02.png",
     live: "https://github.com/Spek7ro/TodoApp_SpringBoot.git",
     github: "https://github.com/Spek7ro/TodoApp_SpringBoot.git",
-  },
-  {
-    num: "05",
-    category: "Data Analysis",
-    title: "ETL Pipeline in Python",
-    description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
-    stack: [
-      { name: "Python" },
-      { name: "Docker" },
-      { name: "Python luigi" },
-      { name: "dgraph" },
-    ],
-    image: "/assets/work/project04.png",
-    live: "https://github.com/Spek7ro/GestorDeDatos_ETL.git",
-    github: "https://github.com/Spek7ro/GestorDeDatos_ETL.git",
   },
 ];
 
