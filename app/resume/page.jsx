@@ -9,9 +9,9 @@ import {
   FaGitlab,
 } from "react-icons/fa";
 import { GrOracle, GrDatabase } from "react-icons/gr";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiPandas, SiFastapi, SiMlflow, SiNumpy  } from "react-icons/si";
 import { BiLogoSpringBoot } from "react-icons/bi";
-import { FaGit } from "react-icons/fa";
+import { FaGit, FaAws  } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
 
 // about me
@@ -26,7 +26,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "3+ Years",
+      fieldValue: "2+ Years",
     },
     {
       fieldName: "Nationality",
@@ -75,11 +75,16 @@ const experience = {
 const education = {
   icon: "assets/resume/cap.svg",
   title: "My Education",
-  description: "I graduated with a degree in software engineering",
+  description: "I graduated with a degree in software engineering and am currently pursuing a master's degree in information processing.",
   items: [
     {
       institution: "Universidad Autónoma de Zacatecas",
-      degree: "Software Engineer",
+      degree: "Master of Science in Information Processing",
+      duration: "2025 - Present",
+    },
+    {
+      institution: "Universidad Autónoma de Zacatecas",
+      degree: "Software Engineering",
       duration: "2020 - 2024",
     },
   ],
@@ -100,8 +105,23 @@ const skills = {
       name: "Python",
     },
     {
-      icon: <FaNodeJs />,
-      name: "Node.js",
+      icon: <SiPandas />,
+      name: "Pandas",
+    },
+    {      icon: <SiNumpy />,
+      name: "NumPy",
+    },
+    {
+      icon: <SiFastapi />,
+      name: "FastAPI",
+    },
+    {
+      icon: <SiMlflow />,
+      name: "MLflow",   
+    },
+    {
+      icon: <FaAws />,
+      name: "AWS",
     },
     {
       icon: <FaDocker />,
