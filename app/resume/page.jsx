@@ -3,7 +3,6 @@
 import {
   FaJava,
   FaPython,
-  FaNodeJs,
   FaDocker,
   FaLinux,
   FaGitlab,

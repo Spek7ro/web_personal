@@ -22,6 +22,24 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "Deep Learning",
+    title: "Emotion Recognition",
+    description: "This project is a deep learning model that uses convolutional neural networks (CNNs) to classify facial expressions in images. The model is trained on a dataset of facial expressions and is capable of accurately identifying emotions in new images.",
+    stack: [
+      { name: "Python" },
+      { name: "Keras" },
+      { name: "Tensorflow" },
+      { name: "OpenCV" },
+      { name: "NumPy" },
+      { name: "Matplotlib" },
+      { name: "Pandas" },
+    ],
+    image: "/assets/work/project_emotion_IA.png",
+    live: "https://github.com/Spek7ro/Analisis_Emociones_IA.git",
+    github: "https://github.com/Spek7ro/Analisis_Emociones_IA.git",
+  },
+  {
+    num: "02",
     category: "Data Analysis",
     title: "Python-Project-New-York-AirBnb-Listing",
     description: "This project performs Exploratory Data Analysis (EDA) on New York Airbnb data to uncover trends and patterns in rental listings. We use libraries like Pandas, Numpy, Matplotlib, Seabornfor cleaning, visualization, and analysis.",
@@ -38,7 +56,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Python-Project-New-York-AirBnb-Listing-2024.git",
   },
   {
-    num: "02", 
+    num: "03", 
     category: "Data Analysis",
     title: "PySpark ETL Pipeline",
     description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
@@ -55,7 +73,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Pyspark-ETL.git",
   },
   {
-    num: "03",
+    num: "04",
     category: "Data engineering",
     title: "ETL Pipeline in Python",
     description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
@@ -70,7 +88,7 @@ const projects = [
     github: "https://github.com/Spek7ro/GestorDeDatos_ETL.git",
   },
   {
-    num: "04",
+    num: "05",
     category: "Backend",
     title: "Spring Boot Microservices - Financial Sector",
     description:
@@ -89,7 +107,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Microservicios_Spring_Boot.git",
   },
   {
-    num: "05",
+    num: "06",
     category: "Fullstack",
     title: "Mentali Web",
     description:
@@ -108,7 +126,7 @@ const projects = [
     github: "https://mentali.site/",
   },
   {
-    num: "06",
+    num: "07",
     category: "Backend",
     title: "Spring-Oracle-Docker Integration",
     description: "This project is designed to learn how to integrate an application built with Spring Boot with an Oracle database, using Docker containers for deployment. The solution includes optimized configurations for development and test environments.",
@@ -125,7 +143,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Spring-Oracle-Docker.git",
   },
   {
-    num: "07",
+    num: "08",
     category: "Fullstack",
     title: "Todo Application",
     description: "This is a project for a to-do list application. It is a simple application that allows users to add, edit, and delete tasks.",
