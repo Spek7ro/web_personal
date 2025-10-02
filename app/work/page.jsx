@@ -90,6 +90,20 @@ const projects = [
   {
     num: "05",
     category: "Data visualization",
+    title: "Data Visualization - Tableau Public",
+    description: "This visualization project was carried out using Tableau Public to create a dashboard on e-commerce sales. The dashboard includes various charts and graphs to analyze sales performance, customer behavior, and product trends.",
+    stack: [
+      { name: "Python" },
+      { name: "Excel" },
+      { name: "Tableau Public" },
+    ],
+    image: "/assets/work/Tableau_Ventas2.png",
+    live: "https://public.tableau.com/views/Ventas2_17593011725260/DashboarddeVentas?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    github: "https://public.tableau.com/views/Ventas2_17593011725260/DashboarddeVentas?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+  },
+  {
+    num: "06",
+    category: "Data visualization",
     title: "Data Visualization",
     description: "This visualization project was carried out using Tableau Public to create a dashboard on e-commerce sales. The dashboard includes various charts and graphs to analyze sales performance, customer behavior, and product trends.",
     stack: [
@@ -102,7 +116,7 @@ const projects = [
     github: "https://public.tableau.com/views/Ventas_Ejemplo_17588673733120/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   },
   {
-    num: "06",
+    num: "07",
     category: "Backend",
     title: "Spring Boot Microservices - Financial Sector",
     description:
@@ -121,7 +135,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Microservicios_Spring_Boot.git",
   },
   {
-    num: "07",
+    num: "08",
     category: "Fullstack",
     title: "Mentali Web",
     description:
@@ -140,7 +154,7 @@ const projects = [
     github: "https://mentali.site/",
   },
   {
-    num: "08",
+    num: "09",
     category: "Backend",
     title: "Spring-Oracle-Docker Integration",
     description: "This project is designed to learn how to integrate an application built with Spring Boot with an Oracle database, using Docker containers for deployment. The solution includes optimized configurations for development and test environments.",
@@ -157,7 +171,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Spring-Oracle-Docker.git",
   },
   {
-    num: "09",
+    num: "10",
     category: "Fullstack",
     title: "Todo Application",
     description: "This is a project for a to-do list application. It is a simple application that allows users to add, edit, and delete tasks.",
