@@ -59,8 +59,8 @@ const experience = {
     },
     {
       comany: "Freelance",
-      position: "Data Scientist",
-      duration: "Sept 2024 - Present",
+      position: "Data Scientist and Software Engineer",
+      duration: "Sept 2025 - Present",
     },
     {
       comany: "Orla Mining Ltd",
