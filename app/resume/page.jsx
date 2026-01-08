@@ -53,6 +53,16 @@ const experience = {
   description: "I have worked in the following companies and projects",
   items: [
     {
+      comany: "Universida Autónoma de Zacatecas",
+      position: "Research Assistant - Data Science",
+      duration: "Agust 2025 - Present",
+    },
+    {
+      comany: "Freelance",
+      position: "Data Scientist",
+      duration: "Sept 2024 - Present",
+    },
+    {
       comany: "Orla Mining Ltd",
       position: "Software Engineer",
       duration: "March 2024 - April 2025",
