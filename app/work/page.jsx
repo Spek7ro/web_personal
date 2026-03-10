@@ -58,6 +58,22 @@ const projects = [
   },
   {
     num: "03",
+    category: "Deep Learning: CNN",
+    title: "Skin Cancer Detection",
+    description: "This project is a deep learning model that uses convolutional neural networks (CNNs) to classify skin cancer images. The model is trained on a dataset of skin cancer images and is capable of accurately identifying cancerous skin regions.",
+    stack: [
+      { name: "Python" },
+      { name: "Keras" },
+      { name: "Tensorflow" },
+      { name: "Tensorboard" },
+      { name: "EfficientNetB0" },
+    ],
+    image: "/assets/work/Skin_Cancer_CNN.png",
+    live: "https://github.com/Spek7ro/Skin_Cancer_Detection_CNN.git",
+    github: "https://github.com/Spek7ro/Skin_Cancer_Detection_CNN.git",
+  },
+  {
+    num: "04",
     category: "Data Analysis",
     title: "Python-Project-New-York-AirBnb-Listing",
     description: "This project performs Exploratory Data Analysis (EDA) on New York Airbnb data to uncover trends and patterns in rental listings. We use libraries like Pandas, Numpy, Matplotlib, Seabornfor cleaning, visualization, and analysis.",
@@ -74,7 +90,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Python-Project-New-York-AirBnb-Listing-2024.git",
   },
   {
-    num: "04", 
+    num: "05", 
     category: "Data Analysis",
     title: "PySpark ETL Pipeline",
     description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
@@ -91,7 +107,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Pyspark-ETL.git",
   },
   {
-    num: "05",
+    num: "06",
     category: "Data engineering",
     title: "ETL Pipeline in Python",
     description: "This is a project in which a component responsible for executing the data extraction, transformation and loading process was developed. Using different sources of information.",
@@ -106,7 +122,7 @@ const projects = [
     github: "https://github.com/Spek7ro/GestorDeDatos_ETL.git",
   },
   {
-    num: "06",
+    num: "07",
     category: "Data visualization",
     title: "Data Visualization - Tableau Public",
     description: "This visualization project was carried out using Tableau Public to create a dashboard on e-commerce sales. The dashboard includes various charts and graphs to analyze sales performance, customer behavior, and product trends.",
@@ -120,7 +136,7 @@ const projects = [
     github: "https://public.tableau.com/views/Ventas2_17593011725260/DashboarddeVentas?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   },
   {
-    num: "07",
+    num: "08",
     category: "Data visualization",
     title: "Data Visualization",
     description: "This visualization project was carried out using Tableau Public to create a dashboard on e-commerce sales. The dashboard includes various charts and graphs to analyze sales performance, customer behavior, and product trends.",
@@ -134,7 +150,7 @@ const projects = [
     github: "https://public.tableau.com/views/Ventas_Ejemplo_17588673733120/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   },
   {
-    num: "08",
+    num: "09",
     category: "Backend",
     title: "Spring Boot Microservices - Financial Sector",
     description:
@@ -153,7 +169,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Microservicios_Spring_Boot.git",
   },
   {
-    num: "09",
+    num: "10",
     category: "Fullstack",
     title: "Mentali Web",
     description:
@@ -172,7 +188,7 @@ const projects = [
     github: "https://mentali.site/",
   },
   {
-    num: "10",
+    num: "11",
     category: "Backend",
     title: "Spring-Oracle-Docker Integration",
     description: "This project is designed to learn how to integrate an application built with Spring Boot with an Oracle database, using Docker containers for deployment. The solution includes optimized configurations for development and test environments.",
@@ -189,7 +205,7 @@ const projects = [
     github: "https://github.com/Spek7ro/Spring-Oracle-Docker.git",
   },
   {
-    num: "11",
+    num: "12",
     category: "Fullstack",
     title: "Todo Application",
     description: "This is a project for a to-do list application. It is a simple application that allows users to add, edit, and delete tasks.",
